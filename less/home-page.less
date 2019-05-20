@@ -1,0 +1,114 @@
+.home {
+
+  .content-section {
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    @media @phone {
+      display: flex;
+      flex-flow: column nowrap;
+      
+      
+    }
+
+   
+    
+    .text-content {
+      width: 48%;
+      padding-right: 1%;
+      @media @phone{
+        width: 97%
+      }
+    }
+
+    .img-content {
+      width: 48%;
+      padding-left: 1%;
+      @media @phone{
+        width: 97%
+        
+      }
+
+      img {
+        border-radius: 10px;
+        
+      }
+    }
+  }
+
+  .inverse-content {
+    padding-bottom: 30px;
+    
+    @media @phone {
+      display: flex;
+      flex-flow: column nowrap;
+      .text-content {
+        order: -1;
+      }
+    }
+
+    .text-content {
+      padding-left: 1%;
+      padding-right: 0;
+    }
+
+    .img-content {
+      padding-right: 1%;
+      padding-left: 0;
+    }
+  }
+
+  // .content-destination {
+  //   width: 75%;
+  //   margin: 0 auto 30px;
+
+  //   @media @phone {
+  //     width: 95%;
+  //   }
+  //   @media @tablet {
+  //     width: 90%;
+  //   }
+
+
+  //   img {
+  //     border-radius: 10px;
+  //   }
+  // }
+
+  // .content-pick {
+  //   padding-top: 30px;
+  //   display: flex;
+  //   justify-content: space-between;
+
+  //   @media @phone {
+  //     display: flex;
+  //     flex-flow: column nowrap;
+      
+  //   }
+  //   @media @tablet {
+  //     display: flex;
+  //     flex-flow: column nowrap;
+  //     align-items: center;
+      
+  //   }
+
+  //   .destination {
+  //     width: 30%;
+  //     margin-bottom: 30px;
+  //     @media @phone {
+  //       width: 95%;
+  //     }
+  //     @media @tablet {
+  //       width: 80%;
+  //     }
+  //     .btn {
+  //       .buttons();
+  //       &:hover{
+  //         .buttonsHover();
+  //       }
+  //     }
+  //   }
+  // }
+}// home

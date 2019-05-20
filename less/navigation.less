@@ -1,0 +1,78 @@
+// Navigation Styles here
+
+.header {
+
+    .top {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 15px 0 10px 0;
+
+        @media @phone {
+            flex-flow: column nowrap;
+            align-content: center;
+    
+        }
+        
+    }
+    h1.logo {
+        width: 60%;
+        color: #BB1333;
+        @media @phone {
+            align-items: center;
+            width: 37%;
+            
+        }
+         }
+
+    nav {
+        display: flex;
+        flex-flow: row nowrap;
+
+        a {
+            color: @font-color;
+            font-size: 16px;
+            text-decoration: none;
+            margin: 0 15px;
+
+            &:hover {
+                color: white;
+                background: #BB1333;
+           }
+        }
+    }
+    .top-content{
+        display: flex;
+        justify-content: space-between;
+        img {
+            margin-bottom: 10px;
+            height: 300px;
+            border-radius: 10px;
+        }
+        .top-left {
+            text-align: center;
+            p {
+                margin: 0 15px 10px 0;
+            }
+            button {
+                margin: 30px;
+                font-size: 32px;
+                color: white;
+                background: #bb1333;
+                padding: 10px;
+                border-radius: 10px;
+                &:hover {
+                    background: #c9425d;
+                }
+                &:active {
+                    background: #c9425d;
+                    color: black;
+                }
+ 
+            }
+        }
+    }
+    p{
+        padding-bottom: 10px;
+    }
+}
