@@ -364,6 +364,7 @@ a.confirm:hover {
 }
 .tabs .tab {
   display: flex;
+  flex-flow: row wrap;
   margin-top: 20px;
   width: 24%;
   align-items: center;
