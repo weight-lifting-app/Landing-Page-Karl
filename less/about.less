@@ -15,6 +15,9 @@
     .tab {
         display: flex;
         flex-flow: row wrap;
+        @media @tablet {
+            flex-flow: column nowrap;
+        }
         margin-top: 20px;
         width: 32%;
         align-items: center;
