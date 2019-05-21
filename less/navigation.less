@@ -16,7 +16,7 @@
         
     }
     h1.logo {
-        width: 60%;
+        width: 65%;
         color: #BB1333;
         @media @phone {
             align-items: center;
@@ -34,10 +34,16 @@
             font-size: 16px;
             text-decoration: none;
             margin: 0 15px;
+            padding: 5px;
+            color: white;
+            background: #bb1333;
+            border-radius: 5px;
+            box-shadow: 4px 5px 5px #3E465F;
+
 
             &:hover {
                 color: white;
-                background: #BB1333;
+                background: #c9425d;
            }
         }
     }
@@ -46,12 +52,15 @@
         justify-content: space-between;
         img {
             margin-bottom: 10px;
-            height: 300px;
+            max-height: 300px;
+            max-width: 50%;
             border-radius: 10px;
+            box-shadow: 8px 5px 5px #3E465F;
         }
         .top-left {
             text-align: center;
             p {
+                max-width: 400px;
                 margin: 0 15px 10px 0;
             }
             button {
@@ -61,6 +70,8 @@
                 background: #bb1333;
                 padding: 10px;
                 border-radius: 10px;
+                box-shadow: 8px 5px 5px #3E465F;
+
                 &:hover {
                     background: #c9425d;
                 }
