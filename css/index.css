@@ -282,6 +282,7 @@ img {
 .footer {
   width: 100%;
   background: #8b9080;
+  margin-top: 200px;
 }
 .footer p {
   text-align: center;
